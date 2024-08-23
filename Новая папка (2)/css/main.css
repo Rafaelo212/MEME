@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: new;
+	src: url(../fonts/MOSCOW2024.otf);
+}
+
+body {
+	font-family:new ;
+	background-color: LightSalmon;
+
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+	transition: all 0.5s ease;	
+}
+
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+.photo1 {
+	background-image: url(../img/1.jpg);
+}
+
+.photo2 {
+	background-image: url(../img/2.jpg);
+}
+
+.photo3 {
+	background-image: url(../img/3.jpg);
+}
+
+.photo4 {
+	background-image: url(../img/4.jpg);
+} 
+
+.photo5 {
+	background-image: url(../img/5.jpg);
+}
+
+.photo6 {
+	background-image: url(../img/6.jpg);
+}
+
+.photo7 {
+	background-image: url(../img/7.jpg);
+}
+
+.photo8 {
+	background-image: url(../img/8.jpg);
+}
+
+.photo9 {
+	background-image: url(../img/9.jpg);
+}
+
+.photo10 {
+	background-image: url(../img/10.jpg);
+}
+
+.photo11 {
+	background-image: url(../img/11.jpg);
+}
+
+.photo12 {
+	background-image: url(../img/12.jpg);
+}
+
+<div style="position:absolute; bottom:0px;">Создатель сайта: Дернов Мирон Андреевич
+Ученик средней школы №525
+Дата создания:
+23 августа 2024 года< /div> 
